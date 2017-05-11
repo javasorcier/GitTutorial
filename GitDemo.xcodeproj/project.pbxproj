@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		802028831EC4E64E00918350 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 802028821EC4E64E00918350 /* MapViewController.swift */; };
 		8028BDD11EC4A0BE006D4902 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8028BDD01EC4A0BE006D4902 /* AppDelegate.swift */; };
 		8028BDD31EC4A0BE006D4902 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8028BDD21EC4A0BE006D4902 /* ViewController.swift */; };
 		8028BDD61EC4A0BE006D4902 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8028BDD41EC4A0BE006D4902 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		802028821EC4E64E00918350 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		8028BDCD1EC4A0BE006D4902 /* GitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8028BDD01EC4A0BE006D4902 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8028BDD21EC4A0BE006D4902 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				8028BDD01EC4A0BE006D4902 /* AppDelegate.swift */,
 				8028BDD21EC4A0BE006D4902 /* ViewController.swift */,
+				802028821EC4E64E00918350 /* MapViewController.swift */,
 				8028BDD41EC4A0BE006D4902 /* Main.storyboard */,
 				8028BDD71EC4A0BE006D4902 /* Assets.xcassets */,
 				8028BDD91EC4A0BE006D4902 /* LaunchScreen.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8028BDD31EC4A0BE006D4902 /* ViewController.swift in Sources */,
+				802028831EC4E64E00918350 /* MapViewController.swift in Sources */,
 				8028BDD11EC4A0BE006D4902 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,6 +509,7 @@
 				8028BDF71EC4A0BE006D4902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8028BDF81EC4A0BE006D4902 /* Build configuration list for PBXNativeTarget "GitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +518,7 @@
 				8028BDFA1EC4A0BE006D4902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8028BDFB1EC4A0BE006D4902 /* Build configuration list for PBXNativeTarget "GitDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +527,7 @@
 				8028BDFD1EC4A0BE006D4902 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
